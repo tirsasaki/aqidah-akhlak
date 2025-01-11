@@ -1,0 +1,172 @@
+/* .footer,
+.top-link {
+    font-size: 12px;
+    color: var(--secondary);
+}
+
+.footer {
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
+    text-align: center;
+    line-height: 24px;
+}
+
+.footer span {
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+
+.footer span:last-child {
+    white-space: nowrap;
+}
+
+.footer a {
+    color: inherit;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.footer a:hover {
+    border-bottom: 1px solid var(--primary);
+}
+
+.top-link {
+    visibility: hidden;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    z-index: 99;
+    background: var(--tertiary);
+    width: 42px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 64px;
+    transition: visibility 0.5s, opacity 0.8s linear;
+}
+
+.top-link,
+.top-link svg {
+    filter: drop-shadow(0px 0px 0px var(--theme));
+}
+
+.footer a:hover,
+.top-link:hover {
+    color: var(--primary);
+}
+
+.top-link:focus,
+#theme-toggle:focus {
+    outline: 0;
+} */
+.footer {
+    font-size: 12px;
+    color: var(--secondary);
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
+    text-align: center;
+    line-height: 24px;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer a:hover {
+    color: var(--primary);
+}
+
+.footer span {
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+
+.footer span:last-child {
+    white-space: nowrap;
+}
+/* footer claud */
+.simple-footer {
+    background: inherit;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+
+  .footer-link {
+    color: #9ca3af;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-link:hover {
+    color: #ffffff;
+  }
+
+  .footer-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* kode baru */
+/* Styling the "Go to Top" button */
+#top-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg,rgb(76, 163, 175),rgb(2, 94, 84));
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Show the button when scrolling */
+#top-link.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+/* Hide the button when inactive */
+#top-link.hide {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+}
+
+/* Styling the SVG icon */
+#top-link .icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: transform 0.3s ease;
+}
+
+#top-link:hover .icon {
+    transform: translateY(-2px);
+}
+
+/* Add a focus style */
+#top-link:focus {
+    outline: 2px solid rgb(56, 68, 247);
+    outline-offset: 4px;
+}
