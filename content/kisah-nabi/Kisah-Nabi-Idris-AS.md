@@ -3,10 +3,11 @@ title: "Kisah Nabi Idris AS"
 date: 2025-01-11T11:34:41+07:00
 author: "Aryo Al-Hafiz"
 cover:
-    image: img/Bumi yang indah, dengan tanaman, sungai, dan hewan-hewan yang beragam._.jpg
-    alt: 'Bumi yang indah, dengan tanaman, sungai, dan hewan-hewan yang beragam'
-tags: ["KisahMotivasi","PelajaranHidup"]
+    image: img/nabi idris.jpg
+    alt: 'Kisah nabi idris as'
+tags: ["KisahMotivasi","Nabi Idris As"]
 categories: ["Kisah Nabi"]
+toc: true
 ---
 **Assalamualaikum warahmatullahi wabarakatuh.**  
 

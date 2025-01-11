@@ -30,10 +30,17 @@
   </header>
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
-  {{- if (.Param "ShowToc") }}
+  <!-- {{- if (.Param "ShowToc") }}
   {{- partial "toc.html" . }}
+  {{- end }} -->
+  {{ if and (gt .WordCount 400) (.Params.toc) }}
+  <div class="toc-wrapper">
+      <div class="toc-header">Table of Contents</div>
+      {{ .TableOfContents }}
+  </div>
   {{- end }}
 
+  <!-- batas -->
   {{- if .Content }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
@@ -41,7 +48,6 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
-
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
