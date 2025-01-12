@@ -3,21 +3,6 @@ a {
     text-decoration: none; /* Menghapus underline default */
     position: relative; /* Agar pseudo-element ::after diposisikan relatif ke link */
   }
-  
-  a::after {
-    content: ''; /* Membuat elemen kosong untuk efek underline */
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0; /* Awalnya lebar underline adalah 0 */
-    height: 2px; /* Ketebalan underline */
-    background-color:rgb(46, 56, 204); /* Warna underline */
-    transition: width 0.3s ease; /* Animasi untuk memperluas underline */
-  }
-  
-  a:hover::after {
-    width: 100%; /* Underline melebar penuh saat hover */
-  }
 
 .page-header,
 .post-header {

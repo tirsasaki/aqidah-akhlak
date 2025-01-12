@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: 472046586
 
 minify:
   disableXML: true
@@ -44,9 +44,9 @@ params:
   showtoc: false
   tocopen: false
 
-  search:
-    enabled: true
-    placeholder: "Search..."
+  # search:
+  #   enabled: true
+  #   placeholder: "Search..."
 
   fuseOpts:
     isCaseSensitive: false
@@ -91,6 +91,6 @@ analytics:
     google:
       SiteVerificationTag: "XYZabc"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "0503F4DE2DFC4E4A6B6E0923692DD51A"
     yandex:
       SiteVerificationTag: "XYZabc"
