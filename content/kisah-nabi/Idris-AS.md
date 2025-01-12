@@ -3,7 +3,7 @@ title: "Kisah Nabi Idris AS"
 date: 2025-01-11T11:34:41+07:00
 author: "Aryo Al-Hafiz"
 cover:
-    image: img/nabi idris.jpg
+    image: img/nabi idris.webp
     alt: 'Kisah nabi idris as'
 tags: ["KisahMotivasi","Nabi Idris As"]
 categories: ["Kisah Nabi"]

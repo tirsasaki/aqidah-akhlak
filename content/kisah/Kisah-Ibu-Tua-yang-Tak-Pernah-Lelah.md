@@ -3,7 +3,7 @@ title: "Roti Kehidupan: Kisah Ibu Tua yang Tak Pernah Lelah"
 date: 2025-01-11T11:34:41+07:00
 author: "Aryo Al-Hafiz"
 cover:
-    image: img/seorang-ibu-menjual-roti.jpg
+    image: img/seorang-ibu-menjual-roti.webp
     alt: 'seorang ibu menjual roti'
 tags: ["Ikhlas","Sabar"]
 categories: ["Kisah Inspirasi"]

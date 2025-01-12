@@ -3,7 +3,7 @@ title: "Kisah Nabi Adam AS: Kisah Awal Kehidupan Manusia"
 date: 2025-01-11T11:34:41+07:00
 author: "Aryo Al-Hafiz"
 cover:
-    image: img/Bumi yang indah, dengan tanaman, sungai, dan hewan-hewan yang beragam._.jpg
+    image: img/nabi adam.webp
     alt: 'Bumi yang indah, dengan tanaman, sungai, dan hewan-hewan yang beragam'
 tags: ["KisahMotivasi","Nabi Adam As"]
 categories: ["Kisah Nabi"]
