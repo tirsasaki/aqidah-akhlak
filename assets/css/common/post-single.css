@@ -1,5 +1,5 @@
 a {
-    color: #3498db; /* Warna teks link normal */
+    color: #18A731; /* Warna teks link normal */
     text-decoration: none; /* Menghapus underline default */
     position: relative; /* Agar pseudo-element ::after diposisikan relatif ke link */
   }

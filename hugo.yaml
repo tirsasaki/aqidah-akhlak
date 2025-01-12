@@ -8,16 +8,30 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 472046586
+googleAnalytics: G-472046586
 
 minify:
   disableXML: true
   minifyOutput: true
 
 params:
-  homeInfoParams:
-    Title: "Menuju Kesempurnaan Aqidah & Akhlak"
-    Content: '"Sesungguhnya orang yang paling sempurna imannya adalah yang paling baik akhlaknya"'
+  profileMode:
+    enabled: true
+    title: "Menuju Kesempurnaan Aqidah & Akhlak" # optional default will be site title
+    subtitle: '"Sesungguhnya orang yang paling sempurna imannya adalah yang paling baik akhlaknya"'
+    imageUrl: "img/quran-gr.avif" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 150 # custom size
+    imageHeight: 150 # custom size
+    buttons:
+      - name: Kisah Nabi
+        url: "/kisah-nabi"
+      - name: Kisah Inspirasi
+        url: "/kisah"
+
+  # homeInfoParams:
+  #   Title: "Menuju Kesempurnaan Aqidah & Akhlak"
+  #   Content: '"Sesungguhnya orang yang paling sempurna imannya adalah yang paling baik akhlaknya"'
   socialIcons:
     - name: facebook
       url: https://www.facebook.com/aqidahakhlakmuslim/
@@ -46,16 +60,6 @@ params:
   # search:
   #   enabled: true
   #   placeholder: "Search..."
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
 
 outputs:
   home:
