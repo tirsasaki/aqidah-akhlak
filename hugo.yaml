@@ -94,3 +94,7 @@ analytics:
       SiteVerificationTag: "0503F4DE2DFC4E4A6B6E0923692DD51A"
     yandex:
       SiteVerificationTag: "XYZabc"
+
+services:
+  disqus:
+    shortname: aqidah-akhlak-web-id.disqus.com
