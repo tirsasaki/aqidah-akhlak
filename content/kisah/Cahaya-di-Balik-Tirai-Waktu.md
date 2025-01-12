@@ -3,7 +3,7 @@ title: "Cahaya di Balik Tirai Waktu"
 date: 2025-01-11T11:34:41+07:00
 author: "Aryo Al-Hafiz"
 cover:
-    image: img/Cahaya-di-Balik-Tirai-Waktu.png
+    image: img/Cahaya-di-Balik-Tirai-Waktu.webp
     alt: 'sCahaya di Balik Tirai Waktu'
 tags: ["KisahMotivasi","Persahabatan","PelajaranHidup"]
 categories: ["Kisah Inspirasi"]

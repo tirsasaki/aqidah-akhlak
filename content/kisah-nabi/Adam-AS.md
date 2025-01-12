@@ -1,5 +1,6 @@
 ---
 title: "Kisah Nabi Adam AS: Kisah Awal Kehidupan Manusia"
+# description: "Menceritakan kisah nabi adam as"
 date: 2025-01-11T11:34:41+07:00
 author: "Aryo Al-Hafiz"
 cover:
