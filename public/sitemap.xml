@@ -57,5 +57,7 @@
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

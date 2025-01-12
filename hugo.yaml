@@ -38,11 +38,31 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
+
+  search:
+    enabled: true
+    placeholder: "Search..."
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 
 menu: 
   main:
@@ -61,7 +81,11 @@ menu:
     - identifier: kisah-nabi
       name: Kisah Nabi
       url: /kisah-nabi/
-      weight: 30
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50  # Sesuaikan dengan urutan yang Anda inginkan
 
 analytics:
     google:

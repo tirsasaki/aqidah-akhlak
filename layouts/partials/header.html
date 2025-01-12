@@ -119,6 +119,15 @@
                 {{- end }}
             </div>
         </div>
+        <!-- kode claud hamburger star -->
+        <div class="hamburger-menu">
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- kode end -->
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}
@@ -146,4 +155,6 @@
             {{- end }}
         </ul>
     </nav>
+    {{ $hamburger := resources.Get "js/hamburger.js" }}
+<script src="{{ $hamburger.RelPermalink }}"></script>
 </header>

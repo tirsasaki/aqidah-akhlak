@@ -91,3 +91,85 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
+
+/* kode claude hamburger */
+/* File: assets/css/extended/hamburger.css */
+.hamburger-menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 3px;
+    background-color: var(--primary);
+    border-radius: 3px;
+    transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        position: relative;
+    }
+    
+    .hamburger-menu {
+        display: block;
+        position: relative;
+        z-index: 1000;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    .nav ul#menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background: var(--theme);
+        flex-direction: column;
+        padding-top: 60px;
+        transition: 0.3s;
+        z-index: 999;
+    }
+    
+    .nav ul#menu.active {
+        right: 0;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    }
+    
+    .nav ul#menu li {
+        margin: 10px 20px;
+    }
+    
+    /* Animasi hamburger */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+}
