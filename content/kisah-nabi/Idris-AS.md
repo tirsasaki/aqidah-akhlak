@@ -5,7 +5,7 @@ author: "Aryo Al-Hafiz"
 cover:
     image: img/nabi idris.webp
     alt: 'Kisah nabi idris as'
-tags: ["KisahMotivasi","Nabi Idris As"]
+tags: ["KisahMotivasi","Kisah Para Nabi"]
 categories: ["Kisah Nabi"]
 toc: true
 ---

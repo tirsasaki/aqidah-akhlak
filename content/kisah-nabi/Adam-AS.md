@@ -6,7 +6,7 @@ author: "Aryo Al-Hafiz"
 cover:
     image: img/nabi adam.webp
     alt: 'Bumi yang indah, dengan tanaman, sungai, dan hewan-hewan yang beragam'
-tags: ["KisahMotivasi","Nabi Adam As"]
+tags: ["KisahMotivasi","Kisah Para Nabi"]
 categories: ["Kisah Nabi"]
 toc: true
 ---

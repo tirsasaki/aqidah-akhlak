@@ -2,62 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:42271/</loc>
+    <loc>http://localhost:40575/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/kisah/cahaya-di-balik-tirai-waktu/</loc>
+    <loc>http://localhost:40575/kisah/cahaya-di-balik-tirai-waktu/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/categories/</loc>
+    <loc>http://localhost:40575/categories/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/ikhlas/</loc>
+    <loc>http://localhost:40575/tags/ikhlas/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/categories/kisah-inspirasi/</loc>
+    <loc>http://localhost:40575/categories/kisah-inspirasi/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/categories/kisah-nabi/</loc>
+    <loc>http://localhost:40575/categories/kisah-nabi/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/kisah-nabi/adam-as/</loc>
+    <loc>http://localhost:40575/kisah-nabi/adam-as/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/kisah-nabi/idris-as/</loc>
+    <loc>http://localhost:40575/kisah-nabi/idris-as/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/kisah-nabi/</loc>
+    <loc>http://localhost:40575/tags/kisah-para-nabi/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/kisahmotivasi/</loc>
+    <loc>http://localhost:40575/kisah-nabi/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/kisah/</loc>
+    <loc>http://localhost:40575/tags/kisahmotivasi/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/nabi-adam-as/</loc>
+    <loc>http://localhost:40575/kisah/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/nabi-idris-as/</loc>
+    <loc>http://localhost:40575/tags/pelajaranhidup/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/pelajaranhidup/</loc>
+    <loc>http://localhost:40575/tags/persahabatan/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/persahabatan/</loc>
+    <loc>http://localhost:40575/kisah/kisah-ibu-tua-yang-tak-pernah-lelah/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/kisah/kisah-ibu-tua-yang-tak-pernah-lelah/</loc>
+    <loc>http://localhost:40575/tags/sabar/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/sabar/</loc>
+    <loc>http://localhost:40575/tags/</loc>
     <lastmod>2025-01-11T11:34:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:42271/tags/</loc>
-    <lastmod>2025-01-11T11:34:41+07:00</lastmod>
+    <loc>http://localhost:40575/archives/</loc>
   </url><url>
-    <loc>http://localhost:42271/archives/</loc>
-  </url><url>
-    <loc>http://localhost:42271/search/</loc>
+    <loc>http://localhost:40575/search/</loc>
   </url>
 </urlset>
